@@ -1,0 +1,10 @@
+    #text {
+        background-color: rgb(133, 185, 178);
+        width: 600px;
+        height: 300px;
+    }
+    .menu {
+        background-color: grey;
+        padding: 20px;
+        
+    }

@@ -1,0 +1,35 @@
+
+h1{
+    font-size: 30px;
+}
+
+
+#text-blue {
+    color: red;
+    text-transform: uppercase;
+}
+
+#text-red {
+    color: green;
+    font-style: italic;
+}
+table {
+    width: 500px ;
+    border: 1px solid green;
+    
+}
+
+.hvt {
+    width: 40%;
+}
+
+#td{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-weight:normal;
+
+}
+#dong2{
+    background-color: grey;
+}

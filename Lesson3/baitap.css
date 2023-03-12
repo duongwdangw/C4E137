@@ -1,0 +1,36 @@
+#app {
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+    border: 0px solid chocolate;
+    background-color: darkcyan;
+    padding: 20px ;
+    position: relative;
+    border: 1px solid blueviolet;
+    box-sizing: border-box;
+   
+}
+
+.doan2{
+    background-color: salmon;
+    border: 1px solid darksalmon;
+    padding: 15px;
+   margin-bottom: 15px;
+}
+.doan1{
+    text-align: center;
+    background-color: peru;
+    border: 1px solid peru;
+    font-size: 25px;
+    padding: 15px 0px;
+    margin: 0px 0px 15px 0px ;
+}
+.submit-btn {
+    background-color: rgb(0, 119, 255);
+    padding: 8px 12px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: white;
+    margin: 10px;
+}
+

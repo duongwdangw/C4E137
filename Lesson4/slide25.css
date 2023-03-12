@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    font-family:  Courier, monospace;
+    
+}
+.header {
+    width: 632px;
+    height: 100px;
+    background-color: sandybrown;
+    border: 1px solid yellowgreen;
+    margin: 10px 400px 10px 400px;
+    line-height: 90px;
+}
+#menu {
+    display: flex;
+    line-height: 330px;
+}
+.content {
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    border: 1px solid darkcyan;
+    margin: 0px 10px 0px 10px;
+}
+.traiphai {
+    width: 130px;
+    height: 350px;
+    background-color: palevioletred;
+    border: 1px solid violet;
+
+}
+#can {
+    margin: 0px 0px 0px 400px;
+}

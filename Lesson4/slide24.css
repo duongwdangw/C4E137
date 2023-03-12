@@ -1,0 +1,42 @@
+#menu {
+    width: 440px;
+    height: 440px;
+    border: 5px solid cadetblue;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+}
+.Header {
+    align-items: center;
+    text-align: center;
+    width: 410px;
+    height: 40px;
+    background-color:burlywood;
+    border: 1px solid burlywood;
+    margin: 11px 10px 0px 11px;
+}
+#text {
+    display:flex;
+    align-items: center;
+    
+}
+.left {
+    width: 90px;
+    height: 350px;
+    background-color: palevioletred;
+    border: 1px solid purple;
+    margin: 10px 10px 0px 10px;
+    line-height: 300px;
+    text-align: center;
+ }
+ .Content {
+width: 310px;
+height: 350px;
+background-color: aqua;
+border: 1px solid aqua;
+margin: 10px 0px 0px 0px;
+text-align: center;
+line-height: 300px;
+
+ }

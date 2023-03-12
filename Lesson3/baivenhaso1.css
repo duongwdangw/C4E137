@@ -1,0 +1,80 @@
+#app {
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    background-color: grey;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+
+}
+
+.muctieu2022 {
+    background-color:darkkhaki;
+    padding: 30px;
+    margin: 300px 370px  ;
+    border:1px solid yellow ;
+    margin-bottom: 15px;
+    width: 170px;
+    height: 30px;
+    font-size: 25px;
+    position: relative;
+}
+
+.m1{
+    background-color: rgb(53, 97, 9);
+    padding: 35px;
+    margin:-230px 10px;
+    width: 200px;
+    height: 45px;
+    
+position: absolute;
+}
+
+.m2 {
+    background-color: darkgreen;
+    padding: 35px;
+    margin: -300px 350px;
+    width: 200px ;
+    height: 45px;
+position: absolute;
+
+
+}
+.m3 {
+    padding: 35px;
+    margin: -230px 680px;
+    width: 200px ;
+    height: 45px;
+    background-color: aqua;
+position: absolute;
+}
+.m4{
+    padding: 35px;
+    margin: -10px 680px;
+    width: 200px ;
+    height: 45px;
+    background-color:crimson ;
+position: absolute;
+}
+.m5 {
+    padding: 35px;
+    margin: 65px 350px;
+    width: 200px ;
+    height: 45px;
+    background-color:blueviolet ;
+position: absolute;
+}
+.m6 {
+    padding: 35px;
+    margin: -10px 10px;
+    width: 200px ;
+    height: 45px;
+    background-color: blue;
+position: absolute  ;
+}
+
+
+

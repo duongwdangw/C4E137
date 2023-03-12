@@ -1,0 +1,56 @@
+#div {
+    background-color: aqua;
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+.vanban {
+    background-color: palevioletred;
+    width: 600px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 35px;
+    margin: 50px 50px ;
+    font-size: 20px;
+    border: 1px solid aqua;
+    position: absolute;
+
+}
+.Delete {
+    background-color:rgb(202, 39, 126);
+    border-radius: 4px;
+    padding: 10px;
+    width: 120px;
+    margin: 15px 15px 15px 15px ;
+    position: relative;
+    margin: 350px 50px;
+    border: none;
+    
+}
+#Keep {
+    background-color: rgb(0, 110, 255);
+    border-radius: 4px;
+    padding: 10px;
+    width: 120px;
+   margin: 0px 10px;
+   border: none;
+   
+}
+.item { 
+    background-color: aquamarine;
+    display: none;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    margin: -100px -10px;
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+
+.Delete:hover .item {
+    display :block ;
+}

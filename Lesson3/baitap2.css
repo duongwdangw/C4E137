@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: deepskyblue;
+    border-right: 1px solid blue;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    box-sizing:border-box ;
+
+}
+
+.sidebar-item {
+    height: 40px;
+    text-align: center;
+    background-color: coral;
+    border: 1px solid chocolate;
+    margin-bottom:10px;
+    line-height: 40px;
+
+
+}
+.menu {
+    width: 200px;
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    display: none;
+    
+}
+.sidebar-item:hover .menu {
+    display: block;
+}
+
+.menu-item {
+    border-collapse:collapse ;
+    text-align: center;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: azure;
+    line-height: 40px;
+
+}
