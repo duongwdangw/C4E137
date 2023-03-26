@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+.card-item {
+    display: flex;
+    background-color: orange;
+    border-radius: 15px;
+    display: flex;
+}
+.card-item  .card-left {
+    border-radius: 15px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.card-item .card-left .card-avatar {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+}
+.card-item .card-left .card-call {
+    display: flex;
+    justify-content: space-between;
+}
+.card-item .card-left .card-call .card-call-item {
+    max-width: 40px;
+    width: 20%;
+    aspect-ratio: 1/1;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
