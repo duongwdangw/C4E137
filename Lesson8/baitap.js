@@ -178,3 +178,20 @@ for (let i =0;i<numbers.length;i++){
 
 // -Nhập vào số n cho đến khi n là 1 số trong mảng s 
 // -Sử dụng thuật toán Bubble Sort để sắp xếp phần tử theo thứ tự tăng dần
+
+
+
+// Bài 2 :Khai báo 1 mảng s bao gồm các chuỗi bất kì. Nhập vào một chuỗi Text
+// -Tìm một chuỗi đầu tiên có độ dài nhỏ nhất các mảng
+const s =['meat','chicken','snack','love'];
+let min = s[0];
+for(let i=0;i<s.length;i++){
+   let indexMin = s[i];
+   if(min>indexMin){
+    min=indexMin;
+   console.log("chuỗi đầu tiên có độ dài nhỏ nhất trong mảng " + indexMin);
+}
+}
+
+//Tìm những chuỗi mảng có giá trị text
+const arr = [   ]
