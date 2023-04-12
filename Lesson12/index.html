@@ -1,0 +1,117 @@
+<!-- 
+1. Boostrap
+2. Dùng boostrap để xây dựng trang web đơn giản
+3. Dùng JS để đổ dữ liệu lên màn hình
+4. Git và quy trình làm việc nhóm với Git
+
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ </head>
+ <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">Wibu's Book</a>
+        <!-- 
+            boostrap 4
+            ml : margin-left
+            mr : margin-right
+         -->
+        <ul class="navbar-nav me-auto" style="margin-right: auto ;">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Trang Chủ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Top View</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Top đề cử</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ">
+            <li class="nav-item me-2">
+                <button class="btn btn-outline-primary">Đăng Nhập</button>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-outline-success">Đăng Ký</button>
+            </li>
+            
+        </ul>
+    </div>    
+    </nav>
+    
+    <div class="container">
+        <h1>This is my website</h1>
+        <a href="#">Click here for more information</a>
+        
+    </div>
+
+    <div class="row">
+<div class="col-4">
+    <div class="card">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <div class="card-body">
+            <b>Attack on Titan</b>
+            <p class="card-text">Chapter 121</p>
+            <a href="#" class="btn btn-primary btn-sm">Đọc Truyện</a>
+            <a href="#" class="btn btn-primary btn-sm">Yêu Thích</a>
+        </div>
+    </div>
+</div>
+<div class="row" id="wibu-book-list">
+    <div class="col-3 mb-3">
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <div class="card-body">
+                <b>Attack on Titan</b>
+                <p class="card-text">Chapter 121</p>
+                <a href="#" class="btn btn-primary btn-sm">Đọc Truyện</a>
+                <a href="#" class="btn btn-primary btn-sm">Yêu Thích</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <div class="card-body">
+                <b>Attack on Titan</b>
+                <p class="card-text">Chapter 121</p>
+                <a href="#" class="btn btn-primary btn-sm">Đọc Truyện</a>
+                <a href="#" class="btn btn-primary btn-sm">Yêu Thích</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <div class="card-body">
+                <b>Attack on Titan</b>
+                <p class="card-text">Chapter 121</p>
+                <a href="#" class="btn btn-primary btn-sm">Đọc Truyện</a>
+                <a href="#" class="btn btn-primary btn-sm">Yêu Thích</a>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+
+    <div class="container-fluid">
+        <h2>This is other section</h2>
+    </div>
+
+
+
+ </body>
+ </html>

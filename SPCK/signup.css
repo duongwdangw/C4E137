@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(0,0,0,.5);
+}
+.menu .input {
+    position: relative;
+}
+
+.menu .input input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.menu .input label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    box-sizing: border-box;
+}
+
+.menu .input input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.menu {
+    
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 430px;
+    margin: 80px 0px 0px 230px;
+    background-color: rgba(0,0,0,6);
+    text-align:center ;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.menu-heading {
+    font-size: 10px;
+    font-family:   monospace;
+    color: white;
+}
+/* .sign.up {
+    padding: 40px 30px;
+}
+
+.input{
+    margin-bottom: 30px;
+    width: 200px;
+    margin: 30px 0px 0px 45px;
+    border-radius: 30px;
+    padding: 5px;
+    
+   
+} */
+
+.btn{
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    color: #03e9f4;
+}
